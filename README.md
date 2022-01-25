@@ -1,7 +1,7 @@
 # stickman_simulation
 simulating stickman
-
-Ich habe hier ein Strichmänchen, dass man mit den Pfeiltasten bewegen kann. Nun soll es ab und zu Meteoriten geben, denen man ausweichen muss. Dafür habe ich die Klasse Object in wellcher die Meteoriten die Instanzen sind. 
+Hi Paul,
+ich habe hier ein Strichmänchen, dass man mit den Pfeiltasten bewegen kann. Nun soll es ab und zu Meteoriten geben, denen man ausweichen muss. Dafür habe ich die Klasse Object in wellcher Meteoriten die Instanzen (später child class wenn noch andere Objekte dazukommen) sind. 
 
 class Object:
     def __init__(self, type, verticies, edges, vel, on_thef_floor, falling_time):
@@ -23,5 +23,4 @@ der Objektname sollte irgendwie abhängig von einer Zählvariable sein.
 Beim Aufrufen der Meteorite Funktion (in welcher der "Meteoriten" gemalt wird) übergebe ich bisher einfach das Objekt meteorite. Kann man mehrere Objekte in einer Liste zusammenfassen, sodass ich in einer foor-Schleife für jeden Meteoriten die draw Funktion einzeln aufrufe und dann das jeweilige Objekt übergebe? Also nach dem Schema:
   for i in listOfObjects:
       Meteorite(i)
-
-
+Ps: Die Klasse Objekt kam erst später dazu und es ist auch das erste mal, dass ich mit KLassen arbeite, deswegen ist es auch recht neu für mich. Ich habe mir gedacht, dass ich auch noch eine Klasse Character, Enemy und Item hinzufüge.
